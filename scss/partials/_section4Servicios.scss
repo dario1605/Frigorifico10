@@ -1,0 +1,82 @@
+.img__delivery{
+    width: 100%;
+    height: 25rem;
+    border: solid 4px $colorSecondary;
+    margin-bottom: 2rem;
+    animation-duration: 10s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+.parrafo__servicio__container{
+    margin: 1rem;
+    color: $colorPrimary;
+    display: $flex;
+    flex-direction: column;
+    align-items: $alinear;
+    justify-content: $alinear;
+    .parrafo__servicio{
+        border-bottom: $border2px;
+        font-size: 1.4rem;
+    }
+}
+
+
+.section4{
+    text-align: $alinear;
+    color: $colorPrimary;
+    margin: 1rem;
+    background-image: $fondo;
+    .formulario{
+        margin-top: 2rem;
+        border-bottom:  $border2px;
+        border-top:  $border2px;
+        animation-duration: 10s;
+        animation-name: aparecer;
+        animation-iteration-count: inherit;
+    }
+}
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }  
+}
+
+.datos__personales{
+    border-bottom: $border2px;
+}
+
+.data__form{
+    margin: 7px;
+    
+}
+
+.data__form:hover{
+    box-shadow: 5px 5px 20px $colorSecondary;
+    transform: translateY(-4%);
+}  
+
+.map__container{
+    background-image: $fondo;
+    border: $border2px;
+    color: $colorPrimary;
+    margin-top: 2rem;
+    display: $flex;
+    align-items: $alinear;
+    flex-direction: column;
+  }
+
+.map{
+    margin: 1rem;
+    width: 50%;
+    height: 20rem;
+}  
+
+.map:hover{
+    box-shadow: 5px 5px 20px $colorSecondary;
+    transform: translateY(-2%);
+}   

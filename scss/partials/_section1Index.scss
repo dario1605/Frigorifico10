@@ -1,0 +1,73 @@
+.section1{
+    border: $border2px;
+    background-image: url(/assets/images/fondo.jpg);
+    color: $colorPrimary;
+    display: $flex;
+    justify-content: $alinear;
+    margin-bottom: 2rem;
+    .combo__container{
+        width: 50%;
+        margin: 1rem;
+        display: $flex;
+        flex-direction: column;
+        justify-content: $alinear;
+        align-items: $alinear;
+    }
+}
+
+.card__combo{
+    width: 100%;
+     position: relative;
+    flex-direction: column;
+    word-wrap: break-word;
+    overflow: hidden;
+    border-radius: 6px;
+    border: $border2px;
+    text-align: $alinear;
+    margin: 2rem;
+    padding-top: 1rem; 
+    background: rgb(38, 38, 38);
+    box-shadow: 0px 1px 10px $colorSecondary;
+    cursor: default;
+}
+
+.card__combo:hover{
+    box-shadow: 5px 5px 20px rgb(42, 137, 252);
+    transform: translateY(-2%);
+}
+
+.img__combo{
+    width: 368px;
+    height: 300px;
+}
+
+.card__description{
+    text-align: $alinear;
+    .card__titulo {
+        font-weight: 400;
+        margin-bottom: 1rem;
+        .card__parrafo {
+            line-height: 1.5;
+            .card__button{
+                display: $flex;
+                justify-content: $alinear;
+                align-items: $alinear;
+             }            
+        }
+    }
+}
+
+.button{
+    background-color: $colorPrimary;
+    padding: 1rem;
+    margin: 10px;
+    border-radius: 0.2rem;
+    border: transparent;
+    font-size: 0.7rem;
+    overflow:hidden ;
+    box-shadow: 0px 1px 10px $colorSecondary;
+}
+.button:hover{
+    background-color: $colorSecondary;
+    transform: translateY(-2%);
+}

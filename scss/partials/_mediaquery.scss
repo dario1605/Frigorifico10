@@ -1,0 +1,28 @@
+/// Menu hamburguesa
+
+@media (max-width: 700px) {
+    .nav__label{
+        display: block;
+        cursor: pointer;
+    }
+    
+        .nav__menu{
+            position: fixed;
+            top: 80px;
+            bottom: 0;
+            background:  rgb(42, 137, 252);
+            width: 100%;
+            left: 0;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            clip-path: circle(0 at center);
+            transition: clip-path 1s ease-in-out;
+    
+        }
+    
+        .nav__input:checked + .nav__menu{
+            clip-path: circle(100% at center);
+        }
+    }

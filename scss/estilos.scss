@@ -1,0 +1,16 @@
+
+@import "./partials/variables"; /// Las variables siempre arriba de todo
+
+@import "./partials/reset"; /// Reset abajo de las variables y por arriba del resto
+
+
+@import "./partials/nav";
+@import "./partials/portada";
+@import "./partials/section1Index";
+@import "./partials/section2Index";
+@import "./partials/section3Productos";
+@import "./partials/section4Servicios";
+@import "./partials/footer";
+
+
+@import "./partials/mediaquery"; /// Mediaquery abajo de todo

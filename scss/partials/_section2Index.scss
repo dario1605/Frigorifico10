@@ -1,0 +1,33 @@
+.section2{
+    color: $colorPrimary;
+    border: $border2px;
+    display: $flex;
+    justify-content: $alinear;
+    background-image: $fondo;
+    .container__video{
+        display: $flex;
+        align-items: $alinear;
+        margin: 2rem;
+        flex-direction: column;
+        .titulo__video{
+            margin: 4rem;
+            border-bottom: $border2px ;
+        }
+    }
+}
+
+.index__video{
+    width:70%;
+    overflow: hidden;
+    border-radius: 6px;
+    border: $border2px;
+    text-align: $alinear;
+    padding: 0.5rem; 
+    margin: 2rem;
+    box-shadow: 0px 1px 10px $colorSecondary;
+}
+
+.index__video:hover{
+    box-shadow: 5px 5px 20px $colorSecondary;
+    transform: translateY(-2%);
+}
