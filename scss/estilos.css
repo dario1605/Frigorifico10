@@ -114,7 +114,7 @@ a .img__logo {
 
 .section1 {
   border: solid 2px rgb(42, 137, 252);
-  background-color: rgb(38, 38, 38);
+  background-image: url(../../assets/images/fondo.jpg);
   color: azure;
   display: flex;
   justify-content: center;
