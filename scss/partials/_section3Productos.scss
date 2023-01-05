@@ -3,7 +3,7 @@
     border: $border2px;
     display:$flex;
     justify-content: $alinear;
-    background-image: $fondo;
+    background-image: url(../../assets/images/fondo.jpg);
     margin-bottom: 2rem;
     .card__container{
         width: 500px;
@@ -38,7 +38,7 @@
 }
 
 .table__productos{
-    background-image: url(/assets/images/fondo.jpg);
+    background-image: url(../../assets/images/fondo.jpg);
     border: solid 1px $colorSecondary;
     color: $colorPrimary;
     padding: 1rem;

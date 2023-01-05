@@ -1,6 +1,6 @@
 .section1{
     border: $border2px;
-    background-image: url(/assets/images/fondo.jpg);
+    background-image: url(../../assets/images/fondo.jpg);
     color: $colorPrimary;
     display: $flex;
     justify-content: $alinear;
@@ -63,7 +63,7 @@
     margin: 10px;
     border-radius: 0.2rem;
     border: transparent;
-    font-size: 0.7rem;
+    font-size: 1rem;
     overflow:hidden ;
     box-shadow: 0px 1px 10px $colorSecondary;
 }

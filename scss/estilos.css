@@ -114,7 +114,7 @@ a .img__logo {
 
 .section1 {
   border: solid 2px rgb(42, 137, 252);
-  background-image: url(/assets/images/fondo.jpg);
+  background-image: url(../../assets/images/fondo.jpg);
   color: azure;
   display: flex;
   justify-content: center;
@@ -177,7 +177,7 @@ a .img__logo {
   margin: 10px;
   border-radius: 0.2rem;
   border: transparent;
-  font-size: 0.7rem;
+  font-size: 1rem;
   overflow: hidden;
   box-shadow: 0px 1px 10px rgb(42, 137, 252);
 }
@@ -192,7 +192,7 @@ a .img__logo {
   border: solid 2px rgb(42, 137, 252);
   display: flex;
   justify-content: center;
-  background-image: url(/assets/images/fondo.jpg);
+  background-image: url(../../assets/images/fondo.jpg);
 }
 .section2 .container__video {
   display: flex;
@@ -226,7 +226,7 @@ a .img__logo {
   border: solid 2px rgb(42, 137, 252);
   display: flex;
   justify-content: center;
-  background-image: url(/assets/images/fondo.jpg);
+  background-image: url(../../assets/images/fondo.jpg);
   margin-bottom: 2rem;
 }
 .section3 .card__container {
@@ -262,7 +262,7 @@ a .img__logo {
 }
 
 .table__productos {
-  background-image: url(/assets/images/fondo.jpg);
+  background-image: url(../../assets/images/fondo.jpg);
   border: solid 1px rgb(42, 137, 252);
   color: azure;
   padding: 1rem;
@@ -314,7 +314,7 @@ tr:hover {
   text-align: center;
   color: azure;
   margin: 1rem;
-  background-image: url(/assets/images/fondo.jpg);
+  background-image: url(../../assets/images/fondo.jpg);
 }
 .section4 .formulario {
   margin-top: 2rem;
@@ -358,8 +358,12 @@ tr:hover {
   transform: translateY(-4%);
 }
 
+.titulo__map {
+  margin: 1rem;
+}
+
 .map__container {
-  background-image: url(/assets/images/fondo.jpg);
+  background-image: url(../../assets/images/fondo.jpg);
   border: solid 2px rgb(42, 137, 252);
   color: azure;
   margin-top: 2rem;
@@ -381,7 +385,7 @@ tr:hover {
 
 .pie-pagina {
   width: 100%;
-  background-image: url(/assets/images/fondo.jpg);
+  background-image: url(../../assets/images/fondo.jpg);
   color: azure;
   border: solid 2px rgb(42, 137, 252);
   text-align: center;
