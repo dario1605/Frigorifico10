@@ -114,7 +114,7 @@ a .img__logo {
 
 .section1 {
   border: solid 2px rgb(42, 137, 252);
-  background-image: url(../../assets/images/fondo.jpg);
+  background-color: rgb(38, 38, 38);
   color: azure;
   display: flex;
   justify-content: center;
@@ -192,7 +192,7 @@ a .img__logo {
   border: solid 2px rgb(42, 137, 252);
   display: flex;
   justify-content: center;
-  background-image: url(../../assets/images/fondo.jpg);
+  background-color: rgb(38, 38, 38);
 }
 .section2 .container__video {
   display: flex;
@@ -226,7 +226,7 @@ a .img__logo {
   border: solid 2px rgb(42, 137, 252);
   display: flex;
   justify-content: center;
-  background-image: url(../../assets/images/fondo.jpg);
+  background-color: rgb(38, 38, 38);
   margin-bottom: 2rem;
 }
 .section3 .card__container {
@@ -262,7 +262,7 @@ a .img__logo {
 }
 
 .table__productos {
-  background-image: url(../../assets/images/fondo.jpg);
+  background-color: rgb(38, 38, 38);
   border: solid 1px rgb(42, 137, 252);
   color: azure;
   padding: 1rem;
@@ -314,7 +314,7 @@ tr:hover {
   text-align: center;
   color: azure;
   margin: 1rem;
-  background-image: url(../../assets/images/fondo.jpg);
+  background-color: rgb(38, 38, 38);
 }
 .section4 .formulario {
   margin-top: 2rem;
@@ -363,7 +363,7 @@ tr:hover {
 }
 
 .map__container {
-  background-image: url(../../assets/images/fondo.jpg);
+  background-color: rgb(38, 38, 38);
   border: solid 2px rgb(42, 137, 252);
   color: azure;
   margin-top: 2rem;
@@ -385,7 +385,7 @@ tr:hover {
 
 .pie-pagina {
   width: 100%;
-  background-image: url(../../assets/images/fondo.jpg);
+  background-color: rgb(38, 38, 38);
   color: azure;
   border: solid 2px rgb(42, 137, 252);
   text-align: center;
