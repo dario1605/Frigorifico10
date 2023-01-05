@@ -26,7 +26,8 @@
     text-align: $alinear;
     color: $colorPrimary;
     margin: 1rem;
-    background-color: rgb(38, 38, 38);
+    background: rgb(2,11,48);
+    background: linear-gradient(90deg, rgba(2,11,48,1) 25%, rgba(0,142,255,0.8323704481792717) 50%, rgba(2,11,48,1) 75%);
     .formulario{
         margin-top: 2rem;
         border-bottom:  $border2px;
@@ -65,7 +66,8 @@
 }
 
 .map__container{
-    background-color: rgb(38, 38, 38);
+    background: rgb(2,11,48);
+    background: linear-gradient(90deg, rgba(2,11,48,1) 25%, rgba(0,142,255,0.8323704481792717) 50%, rgba(2,11,48,1) 75%);
     border: $border2px;
     color: $colorPrimary;
     margin-top: 2rem;

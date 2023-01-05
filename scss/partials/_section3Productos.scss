@@ -3,7 +3,8 @@
     border: $border2px;
     display:$flex;
     justify-content: $alinear;
-    background-color: rgb(38, 38, 38);
+    background: rgb(2,11,48);
+    background: linear-gradient(90deg, rgba(2,11,48,1) 25%, rgba(0,142,255,0.8323704481792717) 50%, rgba(2,11,48,1) 75%);
     margin-bottom: 2rem;
     .card__container{
         width: 500px;
