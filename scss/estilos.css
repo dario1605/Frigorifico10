@@ -385,7 +385,7 @@ tr:hover {
 
 .pie-pagina {
   width: 100%;
-  background-image: url(../../assets/images/fondo.jpg);
+  background-image: url(/assets/images/fondo.jpg);
   color: azure;
   border: solid 2px rgb(42, 137, 252);
   text-align: center;
